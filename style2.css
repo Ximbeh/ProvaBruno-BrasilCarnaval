@@ -1,0 +1,98 @@
+body, h1, h2, h3, p, a{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #A7E9AF;
+}
+
+header{
+    background-color: #7ebd86;
+    padding: 1rem;
+    
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    list-style: none;
+    margin: 1rem 30% 
+}
+
+a{
+    margin: 0 auto;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color:#1e241e;
+    font-weight: bold;
+}
+
+main{
+    margin: 10rem 4rem;
+    padding-top: 0.1rem;
+}
+
+main img{
+    display: inline-block;
+
+}
+
+h1{
+    text-align: center;
+    color: #2B5D51;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin: 7rem 5rem 2rem
+}
+
+container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 5rem;
+    position: relative;
+}
+
+#map_svg{
+    max-width: 2vw;
+    position: absolute;
+    transition: .25s;
+}
+
+.map_floripa{
+    left: 18rem;
+    bottom: 5rem;
+}
+
+.map_rio{
+    left: 22rem;
+    bottom: 7rem;
+}
+
+.map_salvador{
+    left: 25rem;
+    top: 18rem;
+}
+
+.map_manaus{
+    left: 10rem;
+    top: 6rem
+}
+
+#map_svg:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+container h3{
+    color: #2B5D51;
+    font-size: 2rem;
+}
+
+container p{
+   color:#122722
+}
+
